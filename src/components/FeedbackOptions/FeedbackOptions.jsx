@@ -1,16 +1,16 @@
 
 import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
-import { OptionBox, OptionButton } from './FeedbackOptions.styled';
+import { OptionsBox, OptionsButton } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
-  <OptionBox>
+  <OptionsBox>
     {options.map(option => (
-      <OptionButton key={nanoid()} type="button" onClick={onLeaveFeedback}>
+      <OptionsButton key={nanoid()} type="button" onClick={onLeaveFeedback}>
         {option}
-      </OptionButton>
+      </OptionsButton>
     ))}
-  </OptionBox>
+  </OptionsBox>
 );
 
 FeedbackOptions.propTypes = {

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { List, Item, Text } from './Statistics.styled';
 
-export const Statictics = ({
+export const Statistics = ({
     good,
     neutral,
     bad,

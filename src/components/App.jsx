@@ -1,13 +1,13 @@
 
 import  { SectionTitle }from './SectionTitle/SectionTitle';
-import  { Statistics }from './Statistics/Statistics';
+import { Statistics } from './Statistics/Statistics';
 import  { Notification }from './Notification/Notification';
 import  { FeedbackOptions }from './FeedbackOptions/FeedbackOptions';
 import { Component } from 'react';
 
 const Titles = {
   feedback: 'Please leave feedback',
-  statistics: 'Statictics',
+  statistics: 'Statistics',
 };
 
 export class App extends Component {

@@ -1,7 +1,7 @@
-import PropTypes from `prop-types`;
-import { Section, Title } from `./SectionTitle.styled`;
+import PropTypes from 'prop-types';
+import { Section, Title } from './SectionTitle.styled';
 
-export const SectionTitle = ({ title, children}) => (
+export const SectionTitle = ({ title, children }) => (
     <Section>
         <Title>{title}</Title>
         {children}
